@@ -1,0 +1,13 @@
+
+
+Ideally I want widget.js to perform logic for all widgets, not sure if this is possible without the script becoming huge, tho
+
+TODO: 
+- Remove all these global variables because it's difficult to keep track of where they are and what's referencing them
+- Abstract 
+
+QUESTIONS: 
+- Will there possibly be multiple input fields in one widget? Because then we need to add event listeners by class using loop
+- Can I have multiple widgets in one HTML file? Or is it taking the entire file for one widget? NO and YES
+- Would you want liveSearch to be used for anything else? 
+- Where is resultsContainer being defined?? Who knows
